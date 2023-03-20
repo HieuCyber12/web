@@ -1,0 +1,12 @@
+p {
+  color: dodgerblue;
+  border: 2px solid black;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+}
+a {
+  color: red;
+}

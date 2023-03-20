@@ -1,0 +1,25 @@
+article :first-of-type {
+  color: darkmagenta;
+  font-weight: bold;
+}
+/* Some syntax of pesudo-sector
+1. first-child: first element after the object we call 
+ex: above first-child will be thing beside after article
+2. first-of-type
+like first-child but will be using with first type
+ex: p,a,ul,li,...
+3. nth-child to work with list and we can focus on elements by parameters
+*/
+ul li:nth-child(odd) {
+  color: deeppink;
+  font-style: italic;
+}
+/* When you using hover if you move the cusor to link it will highlight the color of the link */
+a:hover {
+  color: deeppink;
+}
+/* But with hover if your press tab to choice link(can choice another element) It won't change the color so using focus to solve this problem */
+#face-link a:hover,
+#face-link a:focus {
+  color: deepskyblue;
+}

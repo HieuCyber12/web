@@ -1,0 +1,21 @@
+p::first-letter {
+  font-size: 200%;
+  font-style: bold;
+}
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  color: deeppink;
+  background-color: antiquewhite;
+}
+#first::after {
+  content: "...";
+  font-weight: bold;
+  display: block;
+}
+
+a {
+  color: darkcyan;
+}
